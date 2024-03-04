@@ -1,4 +1,4 @@
-import { f4 as W, f_ as C, f$ as h, g0 as Vr, f5 as ce, f6 as Se } from "./pages_catch-all.js"
+import { f4 as W, f_ as C, f$ as h, g0 as Vr, f5 as ce, f6 as Se, qSe, fd as pr } from "./pages_catch-all.js"
 
 const _t = W({
     buys: C(),
@@ -44,4 +44,10 @@ const jn = W({
     quoteTokenSymbol: h().optional(),
     logs: Se(Hn).nullable()
 })
-export {jn as jnn}
+
+const Ui = W({
+    schemaVersion: ce("4.0"),
+    pairs: Se(pr)
+})
+
+export {jn as logsSchema, Ui as searchSchema}
