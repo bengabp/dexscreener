@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "dependencies": {
+    "avsc": "^5.7.7",
+    "buffer-crc32": "^1.0.0",
+    "express": "^4.18.3",
+    "multer": "^1.4.5-lts.1",
+    "snappy": "^7.2.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
