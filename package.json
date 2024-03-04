@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "dependencies": {
+    "avsc": "^5.7.7",
+    "buffer-crc32": "^1.0.0",
+    "snappy": "^7.2.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
