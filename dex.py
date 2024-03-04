@@ -22,6 +22,8 @@ params = {
     'c': '1',
 }
 
+
+
 response = requests.get(
     'https://io.dexscreener.com/dex/log/amm/v2/solamm/all/solana/A7MgeybYcTzWeWN2T5Ysaon9RgjEaCWvj6Ph3jvZ1fWz',
     params=params,
