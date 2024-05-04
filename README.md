@@ -1,4 +1,4 @@
-Reverse engineering dexscreener avro encryption to fit my web scraping needs
+Reverse engineering [dexscreener](https://dexscreener.com) avro encryption to fit my web scraping needs
 
 Before running the api, make sure you have node >= v18 installed
 
